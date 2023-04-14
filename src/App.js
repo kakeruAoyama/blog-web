@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 
-function CreateBlog() {
+function App() {
   return (
     <div style={{ margin: "auto", width: "1000px" }}>
-      <h1>ブログ作成画面</h1>
-      <div>
-        <Link to="/">TOP</Link>
-      </div>
-      <div>
-        <Link to="/blogs">記事一覧画面</Link>
-      </div>
+      <h1>ブログアプリ</h1>
+     <div>
+       <Link to="/create">記事作成画面</Link>
+     </div>
+     <div>
+       <Link to="/blogs">記事一覧画面</Link>
+     </div>
     </div>
   );
 }
 
-export default CreateBlog;
+export default App;
